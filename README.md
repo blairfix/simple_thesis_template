@@ -11,6 +11,6 @@ Tweak this template as you see fit. By default, it uses the Vancouver reference 
 ### Use
 
 1. Replace the `bib.bib` file with your own bibtex file
-2. Include you chapters in the `dissertation.tex` file
+2. Include your chapters in the `dissertation.tex` file
 3. Compile with pdflatex
 
