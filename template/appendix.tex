@@ -1,0 +1,38 @@
+
+
+\chapter{Sources and Methods}
+\label{App_sources}
+
+\subsection*{Electricity Use per Capita}
+
+US electricity use is from HSUS table Db228 (1920 - 1948) spliced to EIA table 7.1, \textit{Electricity End Use, Total }  (1949-2015). US population is from Maddison \cite{maddison_statistics_2008} (1920-2009) and World Bank series SP.POP.TOTL (2010-2015).
+
+
+
+\subsection*{Energy Use per Capita -- International}
+
+International energy use per capita data is from the World Bank (series  EG.USE. PCAP.KG.OE). 
+
+\subsection*{Energy Use per Capita -- United States}
+
+US total energy consumption is from HSUS, Tables Db164-171 (1890-1948) and EIA  Table 1.3 (1949-2012). US population is from Maddison \cite{maddison_statistics_2008} (1890-2009) and World Bank series SP.POP.TOTL (2010-2012).
+
+
+\subsection*{Energy Use per Capita -- US Industry}
+
+US Industry energy use is from EIA Table 2.1 (Energy Consumption by Sector). Industry employment is from BEA Table 6.8B-D (Persons Engaged in Production by Industry), where `Industry' is defined to include Mining, Manufacturing and Construction.
+
+\subsection*{Energy Use per Capita -- US Manufacturing Subsectors}
+
+US manufacturing sub-sector energy use is from EIA Manufacturing Energy Consumption Survey Table 1.1 (First Use of Energy for All Purposes)  2002, 2006, and 2010. Manufacturing subsector employment is from Statistics of U.S. Businesses (US 6 digit NAICS) for 2002, 2006, and 2010. 
+
+\subsection*{Firm Age Composition}
+
+The fraction of firms under 42 months old (3.5 years) is calculated from the GEM dataset aggregated over the years 2001-2011
+(data series \textit{babybuso}). This series gives true/false values for whether or not a given firm is under 42 months old. Uncertainty in this data is estimated using the bootstrap method \cite{efron_introduction_1994}.
+
+\subsection*{Firm Age Model}
+
+In order to model firm age accurately,  I use a time step interval of 0.5 years (this allows us to calculate firms under 3.5 years so that we can compare to GEM data). However, most empirical data on firm growth rates are reported with a time interval of 1 year. In order to facilitate comparison with empirical data, I convert model growth rate parameters ($\mu$ and $\sigma$) into the equivalent parameters for a time step of 1 year. Code for this conversion process is provided in the supplementary material.
+
+
