@@ -1,0 +1,41 @@
+\documentclass[12pt]{report}
+\usepackage{preamble}
+
+
+
+\begin{document}
+	
+% front matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+\pagenumbering{Roman}
+\input{title_page}
+\input{abstract}
+\input{acknowledgment}
+
+\setcounter{tocdepth}{1}
+\tableofcontents 
+\listoffigures  
+\listoftables
+
+% main matter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newpage
+\pagenumbering{arabic}
+
+\newpage
+% chapters go here
+\input{chapter}
+
+
+\appendix
+\input{appendix}
+
+
+\newpage
+\bibliography{bib}
+
+
+
+
+\end{document}
