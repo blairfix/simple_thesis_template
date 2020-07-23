@@ -4,7 +4,7 @@ Here is the latex template I used for my PhD dissertation. It comes with an eleg
 
 ![Title Page](https://economicsfromthetopdown.files.wordpress.com/2020/07/titlepage.png)
 
-Tweak this template as you see fit. By default, it uses the Vancouver reference style, as implemented by PLOS ONE.
+Tweak this template as you see fit. By default, it uses the Vancouver reference style, as implemented by PLOS ONE. Change settings by editing the `preamble.sty` file.
 
 
 
